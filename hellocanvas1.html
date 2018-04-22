@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>绘图</title> 
+</head> 
+  <body>
+<canvas id="myCanvas"></canvas>
+  <script>
+    var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(500,0);
+ctx.stroke();
+var c=document.getElementById('myCanvas');
+var ctx=c.getContext('2d');
+ctx.fillStyle='#black';
+ctx.fillRect(10,10,200,200);
+    </script>
+   </body>
+</html>
